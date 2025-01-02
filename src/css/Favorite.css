@@ -1,0 +1,40 @@
+/* .main-content {
+    flex: 1;
+    padding: 2rem;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  } */
+
+  .favorites-conatiner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full height of the viewport */
+    text-align: center;
+   
+    color: #333; /* Darker text color for better readability */
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  .favorites-empty{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .favorites-empty h2 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: red; /* Accent color for the heading */
+  }
+  
+  .favorites-empty p {
+    font-size: 1.2rem;
+    color: white; /* Subtle gray for the paragraph text */
+    margin-bottom: 20px;
+  }
+  
