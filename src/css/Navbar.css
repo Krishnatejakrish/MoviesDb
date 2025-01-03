@@ -7,6 +7,9 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     position: fixed; /* Corrected from 'postion' to 'position' */
     top: 0;
+ left: 0; /* Optional: Align to the left edge */
+    right: 0; /* Optional: Align to the right edge */
+    z-index: 1000; 
   }
   
   .navbar-brand {
