@@ -2,11 +2,13 @@
     padding: 2rem 0;
     width: 100%;
     box-sizing: border-box;
+    margin-top:30px
+    
   }
   
   .search-form {
     max-width: 600px;
-    margin: 40px auto 2rem;
+    margin: 0 auto 2rem;
     display: flex;
     gap: 1rem;
     padding: 0 1rem;
